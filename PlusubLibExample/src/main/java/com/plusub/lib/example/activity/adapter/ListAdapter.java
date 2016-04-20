@@ -26,7 +26,6 @@ import com.plusub.lib.annotate.AnnotateUtil;
 import com.plusub.lib.annotate.BindView;
 import com.plusub.lib.example.MainApplication;
 import com.plusub.lib.example.R;
-import com.plusub.lib.example.activity.MainActivity;
 import com.plusub.lib.example.common.AppConfig;
 import com.plusub.lib.example.entity.SimpleEntity;
 import com.plusub.lib.view.CircleImageView;
@@ -35,7 +34,7 @@ import com.plusub.lib.view.CircleImageView;
  * 演示BaseArrayListAdapter用法和在Adapter中使用BindView的用法，只需要实现getView方法
  * @ClassName: ListAdapter
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午8:07:38<br>
  *     <b>最后修改时间：</b>2014-12-12 下午8:07:38

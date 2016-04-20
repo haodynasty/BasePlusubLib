@@ -29,12 +29,11 @@ import com.plusub.lib.example.MainApplication;
 import com.plusub.lib.example.R;
 import com.plusub.lib.example.common.AppConfig;
 import com.plusub.lib.example.entity.BookEntity;
-import com.plusub.lib.view.CircleImageView;
 
 /**
  * @ClassName: BookAdapter
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-29 下午7:35:21<br>
  *     <b>最后修改时间：</b>2014-12-29 下午7:35:21

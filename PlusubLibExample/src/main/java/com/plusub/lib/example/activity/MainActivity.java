@@ -1,8 +1,5 @@
 package com.plusub.lib.example.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.os.CountDownTimer;
 import android.view.KeyEvent;
 import android.view.View;
@@ -25,11 +22,14 @@ import com.plusub.lib.example.activity.tab4.Tab4Fragment;
 import com.plusub.lib.example.utils.ChannelUtil;
 import com.plusub.lib.view.ViewInjectUtils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 主Activity
  * @ClassName: MainActivity
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date 2014-12-12 下午5:41:51
  * @version v1.0
  */
@@ -203,7 +203,7 @@ public class MainActivity extends BaseFragmentActivity {
 	* 
 	* <p>Title: 
 	* <p>Description: 
-	* @param millisInFuture倒计时毫秒数 
+	* @param millisInFuture 倒计时毫秒数 
 	* @param countDownInterval 间隔毫秒数 
 	*/ 
 		public MyCount(long millisInFuture, long countDownInterval) { 

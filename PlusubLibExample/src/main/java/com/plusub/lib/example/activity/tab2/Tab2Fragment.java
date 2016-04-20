@@ -16,8 +16,6 @@
  */
 package com.plusub.lib.example.activity.tab2;
 
-import java.util.List;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,12 +45,14 @@ import com.plusub.lib.task.TaskMessage;
 import com.plusub.lib.util.LogUtils;
 import com.plusub.lib.view.ViewInjectUtils;
 
+import java.util.List;
+
 /**
  * 测试使用BaseArrayListAdapter,重写BaseAdapter但是更方便
  * 测试网络请求的使用方法
  * @ClassName: Tab1Fragment
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午4:56:53<br>
  *     <b>最后修改时间：</b>2014-12-12 下午4:56:53

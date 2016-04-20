@@ -33,7 +33,7 @@ import com.plusub.lib.util.StringUtils;
 /**
  * @ClassName: BrowserActivity
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午5:51:01<br>
  *     <b>最后修改时间：</b>2014-12-12 下午5:51:01

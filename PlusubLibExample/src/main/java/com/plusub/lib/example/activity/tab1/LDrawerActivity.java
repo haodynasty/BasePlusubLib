@@ -29,7 +29,7 @@ import com.plusub.lib.example.R;
  * <br>3.侧滑栏的根布局必须使用layout_gravity属性
  * @ClassName: LDrawerActivity
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date 2015-4-9 下午7:58:55
  * @version v1.0
  */

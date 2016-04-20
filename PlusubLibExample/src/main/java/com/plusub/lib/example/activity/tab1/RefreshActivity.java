@@ -16,15 +16,10 @@
  */
 package com.plusub.lib.example.activity.tab1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.view.DragEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
@@ -42,11 +37,14 @@ import com.plusub.lib.view.refresh.RefreshListView;
 import com.plusub.lib.view.refresh.RefreshListView.OnBottomListener;
 import com.plusub.lib.view.refresh.RefreshListView.OnRefreshListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 演示刷新与加载Activity
  * @ClassName: RefreshActivity
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午7:32:19<br>
  *     <b>最后修改时间：</b>2014-12-12 下午7:32:19

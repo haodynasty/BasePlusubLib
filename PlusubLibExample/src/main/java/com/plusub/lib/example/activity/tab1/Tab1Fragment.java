@@ -39,7 +39,7 @@ import java.util.ArrayList;
 /**
  * @ClassName: Tab1Fragment
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午4:56:53<br>
  *     <b>最后修改时间：</b>2014-12-12 下午4:56:53
@@ -91,7 +91,7 @@ public class Tab1Fragment extends BaseFragment {
 	protected void initView(View parentView) {
 		// TODO Auto-generated method stub
 		mHeader.init(HeaderStyle.DEFAULT_TITLE);
-		mHeader.setMiddleTitle("加减法科技");
+		mHeader.setMiddleTitle("Blakequ.com");
 	}
 
 	@Override

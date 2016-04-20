@@ -16,9 +16,6 @@
  */
 package com.plusub.lib.example.activity.tab3;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -30,9 +27,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
+import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnLastItemVisibleListener;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
-import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.plusub.lib.activity.BaseFragment;
 import com.plusub.lib.annotate.BindView;
@@ -46,10 +43,13 @@ import com.plusub.lib.task.UserTask;
 import com.plusub.lib.util.TimeUtils;
 import com.plusub.lib.view.ViewInjectUtils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @ClassName: Tab1Fragment
  * @Description: TODO
- * @author qh@plusub.com
+ * @author blakequ@gmail.com
  * @date： 
  *     <b>文件创建时间：</b>2014-12-12 下午4:56:53<br>
  *     <b>最后修改时间：</b>2014-12-12 下午4:56:53
