@@ -6,8 +6,20 @@ A base frame library for Android
 ![](website/main.png)
 
 For more information please see [the website][1]
-using this frame you can see [using document](website/using_info.pdf)
+using this frame you can see [help document](website/using_info.pdf)
 
+Permission
+--------
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
 
 Download
 --------
@@ -43,6 +55,9 @@ or Maven:
 
 ProGuard
 --------
+notice:
+1.不能混淆使用com.plusub.lib.annotate注解的类
+2.添加下面默认混淆的选项
 
 If you are using ProGuard you might need to add the following option:
 ```
@@ -88,5 +103,10 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+about Author
+--------
+1. email:blakequ@gmail.com
+2. website:www.blakequ.com, if you have any question, you can send email, thank you!
+3. how to using this frame, you can see [help document](website/using_info.pdf)
 
  [1]: http://www.blakequ.com
