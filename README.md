@@ -6,7 +6,7 @@ A base frame library for Android
 ![](website/main.png)
 
 For more information please see [the website][1]
-using this frame you can see [说明文档](website/using_info.pdf)
+using this frame you can see [using document](website/using_info.pdf)
 
 
 Download
